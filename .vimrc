@@ -13,3 +13,12 @@ set expandtab
 "improve search display
 set incsearch
 set hlsearch
+
+"display status bar
+set laststatus=2
+
+"get a better menu for vim's command completion
+set wildmenu
+
+"show command being typed (bottom right)
+set showcmd
