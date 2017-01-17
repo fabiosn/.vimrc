@@ -36,4 +36,4 @@ set backspace=2
 
 "mappings
 map <expr> <F2> (&modified) ? ':w \| e # <CR>' : ':e # <CR>' "save if modified, then change to the last file
-map <Esc><Esc> :w <CR> "press esc twice to save
+noremap <Leader>s :update <CR> "save by typing \s
