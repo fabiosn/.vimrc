@@ -15,6 +15,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 "---my plugins
 Plugin 'tpope/vim-surround'
+Plugin 'KKPMW/moonshine-vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'Raimondi/delimitMate'
 Plugin 'rstacruz/sparkup'
@@ -69,6 +70,13 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 "make backspace work on different lines
 set backspace=2
+
+"set colorscheme
+colorscheme moonshine
+
+"show colors properly
+syntax on
+set t_Co=256
 
 "mappings
 map <expr> <F2> (&modified) ? ':w \| e # <CR>' : ':e # <CR>'| "save if modified, then change to the last file
