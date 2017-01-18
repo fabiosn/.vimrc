@@ -71,5 +71,5 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 set backspace=2
 
 "mappings
-map <expr> <F2> (&modified) ? ':w \| e # <CR>' : ':e # <CR>' "save if modified, then change to the last file
-noremap <Leader>s :update <CR> "save by typing \s
+map <expr> <F2> (&modified) ? ':w \| e # <CR>' : ':e # <CR>'| "save if modified, then change to the last file
+noremap <Leader>s :update <CR>| "save by typing \s
