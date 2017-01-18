@@ -15,6 +15,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 "---my plugins
 Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-fugitive'
 Plugin 'KKPMW/moonshine-vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'Raimondi/delimitMate'
