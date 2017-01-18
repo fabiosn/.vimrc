@@ -18,6 +18,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'kien/ctrlp.vim'
 Plugin 'Raimondi/delimitMate'
 Plugin 'rstacruz/sparkup'
+Plugin 'Valloric/YouCompleteMe'
 "---my plugins
 
 " All of your Plugins must be added before the following line
