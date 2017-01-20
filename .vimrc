@@ -80,6 +80,9 @@ colorscheme moonshine
 syntax on
 set t_Co=256
 
+"make ctrlp ignore some files
+let g:ctrlp_custom_ignore = 'node_modules\|bower_components'
+
 "mappings
 map <expr> <F2> (&modified) ? ':w \| e # <CR>' : ':e # <CR>'| "save if modified, then change to the last file
 noremap <Leader>s :update <CR>| "save by typing \s
