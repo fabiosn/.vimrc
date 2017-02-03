@@ -80,6 +80,9 @@ colorscheme moonshine
 syntax on
 set t_Co=256
 
+"make the background transparent
+hi Normal guibg=NONE ctermbg=NONE
+
 "make ctrlp ignore some files
 let g:ctrlp_custom_ignore = 'node_modules\|bower_components'
 
